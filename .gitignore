@@ -131,3 +131,14 @@ dmypy.json
 # Dymola,OpenModelica generated files
 *_log.txt
 *_result.mat
+*_info.json
+*_res.mat
+*.libs
+*.makefile
+*.o
+*_init.xml
+*.c
+*.h
+
+# SOS notebooks
+.sos
