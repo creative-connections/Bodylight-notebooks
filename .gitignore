@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Dymola,OpenModelica generated files
+*_log.txt
+*_result.mat
