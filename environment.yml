@@ -1,0 +1,11 @@
+name: Bodylight-notebooks
+channels:
+  - conda-forge
+dependencies:
+  - pyfmi 
+  - sos 
+  - sos-pbs 
+  - sos-notebook
+  - jupyterlab-sos
+  - sos-bash
+  - sos-python
