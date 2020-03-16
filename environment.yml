@@ -5,3 +5,5 @@ dependencies:
   - pyfmi
   - matplotlib
   - pandas
+  - numpy
+  - scikit-learn
