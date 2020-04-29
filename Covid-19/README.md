@@ -4,5 +4,7 @@ Jupyter notebooks for modeling Coronavirus and COVID-19 infection in different c
 
 To view, click CZ or EN version, github can render the static view.
 
-To work interactively use mybinder link:
-https://mybinder.org/v2/gh/creative-connections/Bodylight-notebooks/master?filepath=Covid-19/Covid-19InItalyAndCzechia.ipynb
+To work interactively use mybinder links 
+  * for EN version: https://mybinder.org/v2/gh/creative-connections/Bodylight-notebooks/master?filepath=Covid-19/Covid-19InItalyAndCzechia-EN.ipynb
+  * for CZ version: https://mybinder.org/v2/gh/creative-connections/Bodylight-notebooks/master?filepath=Covid-19/Covid-19InItalyAndCzechia.ipynb
+  * for reproducibility report: https://mybinder.org/v2/gh/creative-connections/Bodylight-notebooks/master?filepath=Covid-19/COVID-19MolecularInteraction.ipynb
