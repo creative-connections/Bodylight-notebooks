@@ -1,12 +1,15 @@
 # Bodylight-notebooks
 Jupyter interactive notebooks demonstrating Bodylight and related technologies in order to do data science with models of medical physiology.
 
-# Usage
-
+# Usage in cloud computing service - MyBinder
 Some of the notebooks can be interactively launched via MyBinder: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/creative-connections/Bodylight-notebooks/master)
 
-Otherwise use Bodylight-VirtualMachine - where preconfigured Jupyter notebook and depended environment is installed
+# Usage in local installation
+Install JUPYTER - e.g. as part as [Anaconda](https://www.anaconda.com/products/individual) (~700MB) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (60MB) distribution. Then install `fmpy` and `pyfmi` by `conda install -c conda-forge fmpy pyfmi`.
+
+# Usage in local virtual machine
+use Bodylight-VirtualMachine - where preconfigured Jupyter notebook and depended environment is installed
 ```bash
 git clone https://github.com/creative-connections/Bodylight-notebooks
 git clone https://github.com/creative-connections/Bodylight-VirtualMachine
