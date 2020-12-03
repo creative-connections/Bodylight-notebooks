@@ -16,10 +16,11 @@ Příprava prostředí pro notebooky předmětu MOS (Modelování a Simulace).
     * pro Windows [GIT](https://git-scm.com/download)
     * pro Linux `apt install git` nebo `yum install git`
      
-## 2) Vytvoření virtuální mašiny
+## 2) Vytvoření virtuální mašinu
 V terminálu Linuxu (xterm, terminal, ...) nebo příkazovém řádku Windows (`Start ->` pište 'cmd' a Enter, měla by se spustit 'Command Prompt' nebo počeštělá 'Příkazová řádka')
 napište postupně tyto příkazy
 ```
+git clone https://github.com/creative-connections/Physiolibrary-models.git
 git clone https://github.com/creative-connections/Bodylight-notebooks.git
 git clone https://github.com/creative-connections/Bodylight-VirtualMachine.git
 cd Bodylight-VirtualMachine
