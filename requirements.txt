@@ -1,4 +1,4 @@
 SALib==1.3.8
 DyMat==0.7
-OMPython==3.1.2
-openmodelica-kernel==1.0
+FMPy
+PyFMI
