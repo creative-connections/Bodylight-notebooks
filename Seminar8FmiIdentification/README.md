@@ -1,6 +1,6 @@
-Příprava prostředí pro příštích několik cvičení a přednášek MOS (Modelování a Simulace). Nemusíte psát report. Ale na cvičení, přednášce budeme potřebovat. 
+Příprava prostředí pro notebooky předmětu MOS (Modelování a Simulace).
 
-1) nainstalujte si potřebný software
+## 1) nainstalujte si potřebný software
 
   * HW: minimum 1 CPU, 4 GB RAM, min 7GB na disku.
   * Operační systém: jakýkoliv, kam se dá nainstalovat virtualizační platforma VirtualBox a nástroj Vagrant (Windows 7,Windows 10, Ubuntu 16.04, ...)
@@ -16,7 +16,8 @@ Příprava prostředí pro příštích několik cvičení a přednášek MOS (M
     * pro Windows [GIT](https://git-scm.com/download)
     * pro Linux `apt install git` nebo `yum install git`
      
-2) v terminálu Linuxu (xterm, terminal, ...) nebo příkazovém řádku Windows (`Start ->` pište 'cmd' a Enter, měla by se spustit 'Command Prompt' nebo počeštělá 'Příkazová řádka')
+## 2) Vytvoření virtuální mašiny
+V terminálu Linuxu (xterm, terminal, ...) nebo příkazovém řádku Windows (`Start ->` pište 'cmd' a Enter, měla by se spustit 'Command Prompt' nebo počeštělá 'Příkazová řádka')
 napište postupně tyto příkazy
 ```
 git clone https://github.com/creative-connections/Bodylight-notebooks.git
@@ -29,14 +30,15 @@ Pote byste meli videt instalaci virtualni masiny. Bude se stahovat az 2GB dat, p
 
 Po 5-45 minutach by melo byt vse nainstalovane
 
-3) Kontrola
+## 3) Kontrola
   * muzete pristoupit primo do desktopu virtualni masiny ve VirtualBoxu
   * v prohlizeci fyzicke masiny zadejte adresu http://localhost:8080 a mela by se vam obrazovka a dlazdice s odkazy na software virtualni masine
   
-4) Spustte JUPYTER notebook
+## 4) Spustte JUPYTER notebook
   * v prohlizeci fyzicke masiny zadejte adresu http://localhost:8080/jupyter a vyhledejte `Bodylight-notebooks/Seminar8FmiIdentification` a otevrete notebooky (pripona `.ipynb`)
 
 
+### Po ukončení práce 
 5) zastaveni VM
 ```
 cd Bodylight-VirtualMachine
@@ -50,3 +52,10 @@ cd Bodylight-VirtualMachine
 vagrant up
 ```
 opetovne pusti virtualni masinu za 1 minutu - nyni uz bez pocatecni instalace vseho softwaru, ale s nastavenym presmerovanim portu 22 a 80
+
+7) vymazání VM
+```
+cd Bodylight-VirtualMachine
+vagrant destroy
+```
+smaže celou virtuální mašinu včetně dat v ní, co jste si uložili ve virtuální mašině do adresáře `/vagrant` (resp. `/vagrant_data`) zůstane zachováno na fyzické mašině v afresáři `Bodylight-VirtualMachine` (resp. jeho rodiči).
