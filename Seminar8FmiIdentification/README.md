@@ -31,16 +31,20 @@ Po 5-45 minutach by melo byt vse nainstalovane
 
 3) Kontrola
   * muzete pristoupit primo do desktopu virtualni masiny ve VirtualBoxu
-  * v prohlizeci fyzicke masiny zadejte adresu http://ocalhost:8080 a mela by se vam obrazovka a dlazdice s odkazy na software virtualni masine
+  * v prohlizeci fyzicke masiny zadejte adresu http://localhost:8080 a mela by se vam obrazovka a dlazdice s odkazy na software virtualni masine
+  
+4) Spustte JUPYTER notebook
+  * v prohlizeci fyzicke masiny zadejte adresu http://localhost:8080/jupyter a vyhledejte `Bodylight-notebooks/Seminar8FmiIdentification` a otevrete notebooky (pripona `.ipynb`)
 
-4) zastaveni VM
+
+5) zastaveni VM
 ```
 cd Bodylight-VirtualMachine
 vagrant halt
 ```
 pripadne muzete pouzit v desktopu VM jine metody jako `sudo shutdown now -h` atd.
 
-opetovne spusteni VM
+6) opetovne spusteni VM
 ```
 cd Bodylight-VirtualMachine
 vagrant up
