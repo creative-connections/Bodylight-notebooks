@@ -11,6 +11,7 @@ Install JUPYTER - e.g. as part as [Anaconda](https://www.anaconda.com/products/i
 ```conda install -c conda-forge fmpy pyfmi```
 
 start Jupyter notebook
+
 ```jupyter notebook```
 
 and open notebook, for beginners start with `BasicDemos` and `Seminar11GlucoseInsulinIdentification\ModelicaIdentification`.
