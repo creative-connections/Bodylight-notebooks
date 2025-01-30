@@ -10,9 +10,13 @@ Install JUPYTER - e.g. as part as [Anaconda](https://www.anaconda.com/products/i
 
 ```conda install -c conda-forge fmpy pyfmi```
 
-start Jupyter notebook
+clone Bodylight-notebooks and start Jupyter notebook inside the directory
 
-```jupyter notebook```
+```
+git clone https://github.com/creative-connections/Bodylight-notebooks
+cd Bodylight-notebooks
+jupyter notebook
+```
 
 and open notebook, for beginners start with `BasicDemos` and `Seminar11GlucoseInsulinIdentification\ModelicaIdentification`.
 
